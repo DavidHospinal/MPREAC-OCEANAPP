@@ -1,0 +1,12 @@
+
+train: /content/train_mpreac/images/train
+val: /content/train_mpreac/images/val
+test:  # test images (optional)
+
+# Classes
+nc: 2  # number of classes
+names: ['Lobo Marino','Pelicano']  # class names
+
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
