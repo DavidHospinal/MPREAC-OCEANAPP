@@ -4,15 +4,13 @@
 
 Se espera que este trabajo sea beneficioso para el campo industrial y artesanal de la pesca y los científicos marinos, así como un punto de partida útil donde la motivación principal de los autores es generar la concientización respecto a la identificación de los principales depredadores relacionado al rescate y liberación de las especies marinas que interactúan con la pesca objetivo como es la anchoveta, jurel y caballa.[Link al artículo científico-Paper](https://drive.google.com/file/d/1WY2wJVpQvEA8-5xLBjGibL4HIeXe-E-A/view?usp=share_link)
 
-# Desarrollo y evaluación del modelo
-
-El desarrollo del modelo está conformado por dos grandes fases: la fase del entrenamiento del modelo y la fase de despliegue de este.
-
 A continuación presentamos la ![DemoOceanApp]!
 
 ![gIF gIThUBv0 2](https://user-images.githubusercontent.com/73408508/204155702-4b328740-b964-4b9e-baed-e90080914f3f.gif)
 
+# Desarrollo y evaluación del modelo
 
+El desarrollo del modelo está conformado por dos grandes fases: la fase del entrenamiento del modelo y la fase de despliegue de este.
 
 # 1.Entrenamiento
 
