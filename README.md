@@ -1,8 +1,20 @@
-<p class="text-center">
- MPREAC-OCEANAPP</p>
+
+   # MPREAC-OCEANAPP
 ## Sistema para el reconocimiento de las especies en la pesca acompañante de cerco, utilizando redes neuronales convolucionales para una empresa del sector pesquero en los puertos de Callao y Paracas.
 
 Se espera que este trabajo sea beneficioso para el campo industrial y artesanal de la pesca y los científicos marinos, así como un punto de partida útil donde la motivación principal de los autores es generar la concientización respecto a la identificación de los principales depredadores relacionado al rescate y liberación de las especies marinas que interactúan con la pesca objetivo como es la anchoveta, jurel y caballa.[Link al artículo científico-Paper](https://drive.google.com/file/d/1WY2wJVpQvEA8-5xLBjGibL4HIeXe-E-A/view?usp=share_link)
 
+# Desarrollo y evaluación del modelo
 
-<p class="text-center">Texto centrado</p>
+El desarrollo del modelo está conformado por dos grandes fases: la fase del entrenamiento del modelo y la fase de despliegue de este.
+
+![DemoOceanApp](https://drive.google.com/file/d/1RcrioSCxXRIFPnXrO2yToFyLinRZtwL-/view?usp=share_link)
+
+# 1.Entrenamiento
+
+Para el entrenamiento del modelo, se obtuvo un conjunto de datos conformado por 1240 imágenes estructuradas, obtenidas de las principales fuentes de las empresas peruanas pesqueras, y 4960 imágenes de fondo generadas por la clase DataGenerator de Python a fin de reducir los falsos positivos del modelo, dando un total de 6200 imágenes en conjunto, utilizando el 80% de imágenes estructuradas para el entrenamiento y el 20% restante para su validación.
+
+## 1.1 Base de datos:
+Se encuentra en Google Drive, se recomienda que ustedes hagan una copia en su perfil, el formato de las imágnes están en jpg y los label en txt.  ya que asi se espera en el google colab para poder trabajar, prestar mucha atención al orden de los archivos en las carpetas, la base de datos se ira actualizando [clik aquí para descargar BD estructurada ](https://drive.google.com/drive/folders/1RIaeYJsEKEyp6wgIBoR8rONC5i2qCo1R?usp=share_link).
+
+Por otro lado referente a la clase DataGenerator nos sirvió  para la alimentación de datos en tiempo real empleado en la biblioteca Keras. Este artificio nos ayudó a mejorar el desempeño de la métrica de precisión de nuestro modelo en la que se pudo llegar a cumplir el indicador de éxito. Hay que destacar que se llegó a generar 4960 imágenes adicionales llamado “imágenes de fondo”, en la cual estos son archivos sin objetos que se agregan a un conjunto de datos para reducir los falsos positivos (FP), para este caso no se requieren etiquetas para las imágenes de fondo. También, merece la pena subrayar que para aumentar el desempeño de esta técnica se realizó mediante un rango del [1%-10%], para nuestro caso se empleó un 5% del total.[clik aquí para descargar BD DataGenerator ](https://drive.google.com/drive/folders/12KPpOShxC82Bpca4Wxe67qjqXoLcvjKH?usp=share_link).
