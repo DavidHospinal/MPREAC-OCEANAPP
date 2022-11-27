@@ -12,7 +12,16 @@ A continuación presentamos la ![DemoOceanApp]!
 
 El desarrollo del modelo está conformado por dos grandes fases: la fase del entrenamiento del modelo y la fase de despliegue de este.
 
-# 1.Entrenamiento
+# 1.Pre-Entrenamiento
+
+En este punto, se detalla el total de las imágenes estructuradas (data real y sintética), la cual se obtuvo mediante las principales fuentes de datos de las principales Empresas Pesqueras, páginas web (Exalmar, SNP y repositorios indexados), y mediante un trabajo previo de limpieza y conversión de fotogramas. Pos!
+teriormente, se procedió a realizar el etiquetado de las respectivas imágenes mediante la herramienta “makesense.ai”.
+
+[Uploading media.io_UNjqeAe1.gif…]()
+
+Aparte de ello se generó información de las coordenadas del cuadro dentro de la imagen que contiene cada categoría. A la información de las coordenadas del objeto dentro de la imagen es a lo que se le puede llamar la etiqueta, para nuestro caso la primera especie lobo marino es a (“0”) y la segunda especie pelícano es a (“1”), en un sistema de coordenadas binario.
+
+# 2.Entrenamiento
 
 Para el entrenamiento del modelo, se obtuvo un conjunto de datos conformado por 1240 imágenes estructuradas, obtenidas de las principales fuentes de las empresas peruanas pesqueras, y 4960 imágenes de fondo generadas por la clase DataGenerator de Python a fin de reducir los falsos positivos del modelo, dando un total de 6200 imágenes en conjunto, utilizando el 80% de imágenes estructuradas para el entrenamiento y el 20% restante para su validación.
 
