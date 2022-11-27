@@ -35,10 +35,9 @@ Por otro lado referente a la clase DataGenerator nos sirvió  para la alimentaci
 
 ## 1.2 Entrenamiento en la nube:
 
-Se decidió usar google colab, debido a que porrpociona una maquina virtual gratuita por unas horas, subimos el archivo II_Deploy_OceanApp.ipynb o pueden ingresar directamente a nuestro colab . Prestar Atención!!! tienen que desacargar el archivo de la base de datos y subirlo a su cuenta del Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing). Luego tiene que subir el archivo lobpeldrivetraintrain.yaml [clik aquí]
-(https://drive.google.com/file/d/1bT8P3K8NCGKhc7T3EmeHbJdHoOzovCb0/view?usp=share_link)
+Se decidió usar google colab, debido a que porrpociona una maquina virtual gratuita por unas horas, subimos el archivo II_Deploy_OceanApp.ipynb o pueden ingresar directamente a nuestro colab . Prestar Atención!!! tienen que desacargar el archivo de la base de datos y subirlo a su cuenta del Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing). Luego tiene que subir el archivo lobpeldrivetraintrain.yaml [clik aquí](https://drive.google.com/file/d/1bT8P3K8NCGKhc7T3EmeHbJdHoOzovCb0/view?usp=share_link)
 al google drive dentro de la carpeta yolov5/data, lo que hace este coordinar la información del etiquetado con el entrenamiento de Yolov5 .
-Luego la red entrenada genera una archivo best.pt que se encuentra aqui runs/train/exp/weights/best.pt, hay que descargar el mismo , [clik aquí]
-(https://drive.google.com/file/d/1UkN8bOm88l_eTj2Icb7hTgCw0LdN1NSs/view?usp=share_link)
+Luego la red entrenada genera una archivo best.pt que se encuentra aqui runs/train/exp/weights/best.pt, hay que descargar el mismo , 
+[clik aquí](https://drive.google.com/file/d/1UkN8bOm88l_eTj2Icb7hTgCw0LdN1NSs/view?usp=share_link)
 
 
