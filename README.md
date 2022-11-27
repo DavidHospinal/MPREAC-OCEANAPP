@@ -35,9 +35,50 @@ Por otro lado referente a la clase DataGenerator nos sirvió  para la alimentaci
 
 ## 1.2 Entrenamiento en la nube:
 
-Se decidió usar google colab, debido a que porrpociona una maquina virtual gratuita por unas horas, subimos el archivo II_Deploy_OceanApp.ipynb o pueden ingresar directamente a nuestro colab . Prestar Atención!!! tienen que desacargar el archivo de la base de datos y subirlo a su cuenta del Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing). Luego tiene que subir el archivo lobpeldrivetraintrain.yaml [clik aquí](https://drive.google.com/file/d/1bT8P3K8NCGKhc7T3EmeHbJdHoOzovCb0/view?usp=share_link)
+Se decidió usar google colab, debido a que porrpociona una maquina virtual gratuita por unas horas, subimos el archivo II_Deploy_OceanApp.ipynb o pueden ingresar directamente a nuestro colab . Prestar Atención!!! tienen que desacargar el archivo de la base de datos y subirlo a su cuenta del Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing). Luego tiene que subir el archivo lobpeldrivetraintrain.yaml [clik aquí para descargar el archivo .yaml](https://drive.google.com/file/d/1bT8P3K8NCGKhc7T3EmeHbJdHoOzovCb0/view?usp=share_link)
 al google drive dentro de la carpeta yolov5/data, lo que hace este coordinar la información del etiquetado con el entrenamiento de Yolov5 .
 Luego la red entrenada genera una archivo best.pt que se encuentra aqui runs/train/exp/weights/best.pt, hay que descargar el mismo , 
-[clik aquí](https://drive.google.com/file/d/1UkN8bOm88l_eTj2Icb7hTgCw0LdN1NSs/view?usp=share_link)
+[clik aquí para descargar el archivo .best](https://drive.google.com/file/d/1UkN8bOm88l_eTj2Icb7hTgCw0LdN1NSs/view?usp=share_link)
+
+# 3 Resultados - Porcentaje de precisión del modelo
+
+En este punto se desarrolló la métrica de precisión que es el número de resultados correctos dividido por el número de todos los resultados devueltos. La precisión tiene en cuenta todos los archivos recuperados, pero también se puede evaluar en un rango de corte dado, considerando solo los resultados más altos devueltos por el sistema. 
+
+Para todos aquellos resultados de precisión se realizó 07 entrenamientos hasta obtener un indicador óptimo mayor e igual al 90%, en la cual se utilizaron dos tipos de modelos Yolov5x y Yolov5s.
+
+![image](https://user-images.githubusercontent.com/73408508/204157759-eab7c01e-2edf-4533-b150-b3cd71177f48.png)
+
+
+![Mosaico](https://user-images.githubusercontent.com/73408508/204157722-bd8b1cdb-b79e-47a0-9e9c-8c87738d293a.png)
+
+# 4 Deploy
+
+## 4.1 Google Colab:
+Para hacer un puesta en producción rápido ofrecemos un[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing), previamente hay que subir la red entrenada, que obtuvimos en el paso anterior que se llama best.pt .
+Nota; este producto solo durará unas horas ya que esta limitado por el uso de google colab.
+
+## 4.2 HugginFace:
+Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrecemos una versión en HuggingFace, el código se encuentra libre en la misma plataforma [Link Deploy](https://huggingface.co/spaces/hexenbiest/OceanApp)
+
+![I-01](https://user-images.githubusercontent.com/73408508/204157894-fe085dda-ad51-4128-9384-5e03b009dbd2.gif)
+
+
+
+# Citación
+Por favor si usas la base de datos o el código 
+```
+@article{Aplicativo móvil para el reconocimiento de las especies del mar peruano en la pesca acompañante de cerco utilizando redes neuronales convolucionales,
+  title = {OceanApp: Detección y monitoreo a tiempo real de especies acompañantes incidentales en el Mar del Perú},
+  author = {Hospinal Roman, Oscar David  and Geraldine Indira, Jayo Escalante },
+  
+  year = {2022}
+  Universidad={Universidad Peruana de Ciencias Aplicadas-UPC}
+}
+```
+# Contacto 
+Para mas información por favor contactarse a:
+
+u202021214@upc.edu.pe(David Hospinal).
+u202020275@upc.edu.pe(Geraldine Jayo).
 
 
