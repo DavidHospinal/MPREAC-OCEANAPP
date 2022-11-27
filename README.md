@@ -8,7 +8,7 @@ Se espera que este trabajo sea beneficioso para el campo industrial y artesanal 
 
 El desarrollo del modelo está conformado por dos grandes fases: la fase del entrenamiento del modelo y la fase de despliegue de este.
 
-A continuación presentamos la ![DemoOceanApp]!:
+A continuación presentamos la ![DemoOceanApp]!
 
 
 [gIF gIThUBv0 2](https://user-images.githubusercontent.com/73408508/204155519-cf296eb0-862e-4e76-9d3d-d21bff9725c7.gif)
