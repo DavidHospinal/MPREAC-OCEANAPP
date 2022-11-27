@@ -10,8 +10,9 @@ El desarrollo del modelo está conformado por dos grandes fases: la fase del ent
 
 A continuación presentamos la ![DemoOceanApp]!
 
+![gIF gIThUBv0 2](https://user-images.githubusercontent.com/73408508/204155702-4b328740-b964-4b9e-baed-e90080914f3f.gif)
 
-[DemoOceanApp](https://user-images.githubusercontent.com/73408508/204155519-cf296eb0-862e-4e76-9d3d-d21bff9725c7.gif)
+
 
 # 1.Entrenamiento
 
