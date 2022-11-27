@@ -16,10 +16,10 @@ El desarrollo del modelo está conformado por dos grandes fases: la fase del ent
 
 En este punto, se detalla el total de las imágenes estructuradas (data real y sintética), la cual se obtuvo mediante las principales fuentes de datos de las principales Empresas Pesqueras, páginas web (Exalmar, SNP y repositorios indexados), y mediante un trabajo previo de limpieza y conversión de fotogramas. Pos!
 teriormente, se procedió a realizar el etiquetado de las respectivas imágenes mediante la herramienta “makesense.ai”.
-
-[Uploading media.io_UNjqeAe1.gif…]()
-
 Aparte de ello se generó información de las coordenadas del cuadro dentro de la imagen que contiene cada categoría. A la información de las coordenadas del objeto dentro de la imagen es a lo que se le puede llamar la etiqueta, para nuestro caso la primera especie lobo marino es a (“0”) y la segunda especie pelícano es a (“1”), en un sistema de coordenadas binario.
+![media io_UNjqeAe1](https://user-images.githubusercontent.com/73408508/204156043-42da9768-083d-4e4d-8123-d649adae1c68.gif)
+
+
 
 # 2.Entrenamiento
 
