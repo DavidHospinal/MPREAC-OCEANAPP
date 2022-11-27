@@ -31,3 +31,14 @@ Se encuentra en Google Drive, se recomienda que ustedes hagan una copia en su pe
 Por otro lado referente a la clase DataGenerator nos sirvió  para la alimentación de datos en tiempo real empleado en la biblioteca Keras. Este artificio nos ayudó a mejorar el desempeño de la métrica de precisión de nuestro modelo en la que se pudo llegar a cumplir el indicador de éxito. Hay que destacar que se llegó a generar 4960 imágenes adicionales llamado “imágenes de fondo”, en la cual estos son archivos sin objetos que se agregan a un conjunto de datos para reducir los falsos positivos (FP), para este caso no se requieren etiquetas para las imágenes de fondo. También, merece la pena subrayar que para aumentar el desempeño de esta técnica se realizó mediante un rango del [1%-10%], para nuestro caso se empleó un 5% del total.[clik aquí para descargar BD DataGenerator ](https://drive.google.com/drive/folders/12KPpOShxC82Bpca4Wxe67qjqXoLcvjKH?usp=share_link).
 
 [![00.png](https://i.postimg.cc/BQTDWYWJ/00.png)](https://postimg.cc/VdN5nFLh)
+
+
+## 1.2 Entrenamiento en la nube:
+
+Se decidió usar google colab, debido a que porrpociona una maquina virtual gratuita por unas horas, subimos el archivo II_Deploy_OceanApp.ipynb o pueden ingresar directamente a nuestro colab . Prestar Atención!!! tienen que desacargar el archivo de la base de datos y subirlo a su cuenta del Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing). Luego tiene que subir el archivo lobpeldrivetraintrain.yaml [clik aquí]
+(https://drive.google.com/file/d/1bT8P3K8NCGKhc7T3EmeHbJdHoOzovCb0/view?usp=share_link)
+al google drive dentro de la carpeta yolov5/data, lo que hace este coordinar la información del etiquetado con el entrenamiento de Yolov5 .
+Luego la red entrenada genera una archivo best.pt que se encuentra aqui runs/train/exp/weights/best.pt, hay que descargar el mismo , [clik aquí]
+(https://drive.google.com/file/d/1UkN8bOm88l_eTj2Icb7hTgCw0LdN1NSs/view?usp=share_link)
+
+
