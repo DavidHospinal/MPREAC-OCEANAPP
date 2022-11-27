@@ -78,7 +78,7 @@ Por favor si usas la base de datos o el código
 # Contacto 
 Para mas información por favor contactarse a:
 
-u202021214@upc.edu.pe(David Hospinal).
+u202021214@upc.edu.pe(David Hospinal) and
 u202020275@upc.edu.pe(Geraldine Jayo).
 
 
