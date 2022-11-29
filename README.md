@@ -65,14 +65,14 @@ Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrece
 
 
 # Citación
-Por favor si usas la base de datos o el código 
+Por favor si usas la base de datos o el código, realizar la citación respectiva de los autores. 
 ```
 @article{Aplicativo móvil para el reconocimiento de las especies del mar peruano en la pesca acompañante de cerco utilizando redes neuronales convolucionales,
-  title = {OceanApp: Detección y monitoreo a tiempo real de especies acompañantes incidentales en el Mar del Perú},
-  author = {Hospinal Roman, Oscar David  and Geraldine Indira, Jayo Escalante },
+  Title = {OceanApp: Detección y monitoreo a tiempo real de especies acompañantes incidentales en el Mar del Perú},
+  Authors = {Hospinal Roman, Oscar David  and Geraldine Indira, Jayo Escalante },
   
-  year = {2022}
-  Universidad={Universidad Peruana de Ciencias Aplicadas-UPC}
+  Year = {2022}
+  University={Universidad Peruana de Ciencias Aplicadas-UPC}
 }
 ```
 # Contacto 
