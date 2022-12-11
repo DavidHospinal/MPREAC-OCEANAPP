@@ -89,7 +89,7 @@ Una vez que se descarga la aplicación en el teléfono, la instalación de la mi
 
 ![image](https://user-images.githubusercontent.com/73408508/206926928-a2c624cc-fb77-44d0-9d4b-b9b17c0c9a0b.png)
 
-# 4 Manual de Usuario:
+# 6 Manual de Usuario:
 
 Este manual proporciona los detalles y requerimientos para el uso de la aplicación móvil conocida como OCEAN-APP. La aplicación fue diseñada para el reconocimiento de las especies de la pesca acompañante por cerco. Esté facilita el manejo de sus funciones, permitiendo el dominio de todas sus características, mostrando los pasos que debes seguir en las tareas que tengas que realizar para realizar la toma de imágenes en altamar y el algoritmo pueda detectar las especies respectivas.
 El documento proporciona los detalles y requerimientos para el uso correcto de la aplicación móvil, esto con la finalidad de brindar al usuario una herramienta que asegure el uso correcto de la aplicación.
