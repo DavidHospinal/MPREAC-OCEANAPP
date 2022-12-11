@@ -62,6 +62,34 @@ Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrece
 
 ![I-01](https://user-images.githubusercontent.com/73408508/204157894-fe085dda-ad51-4128-9384-5e03b009dbd2.gif)
 
+# 5 Descarga del Apk:
+
+## 5.1 Requerimientos:
+
+Los requerimientos mínimos para que la aplicación OCEAN-APP funcione correctamente, son los siguientes:
+
+1) Sistema operativo Android (11.0 o mayor).
+2) Procesador: Snapdragon 870.
+3) Memoria RAM: 8 GB como mínimo.
+4)Almacenamiento: 128 GB como mínimo.
+5)Pantalla: 6,7′′ pulgadas como mínimo.
+6)Resolución de camara: 1080 X 2520 (Full HD).
+7)Densidad de píxeles: 409 ppp.
+8)Cámara Principal: Cuádruple, 64 MP + 16 MP + 2 MP + Sensor ToF.
+9)Batería: 5000 mAh, Carga rápida 20W
+Es preciso seleccionar como lenguaje predeterminado del teléfono móvil: Español (Estados Unidos).
+
+## 5.2 Instalación:
+
+Una vez que se descarga la aplicación en el teléfono, la instalación de la misma se realiza de manera automática. Una vez que la aplicación se ha instalado correctamente es preciso ubicar el ícono ejecutable de la aplicación descargada, para asegurarse que se encuentra instalada correctamente
+(como se muestra en la Figura 1).Para hacer uso de la aplicación OCEAN-APP, sólo es necesario tocar el icono de la aplicación para abrirla y empezar a trabajar con ella.
+![image](https://user-images.githubusercontent.com/73408508/206926829-6cc65a9c-19a2-4cd8-86ed-1d57984e8ae9.png)
+
+
+# 4 Manual de Usuario:
+
+Este manual proporciona los detalles y requerimientos para el uso de la aplicación móvil conocida como OCEAN-APP. La aplicación fue diseñada para el reconocimiento de las especies de la pesca acompañante por cerco. Esté facilita el manejo de sus funciones, permitiendo el dominio de todas sus características, mostrando los pasos que debes seguir en las tareas que tengas que realizar para realizar la toma de imágenes en altamar y el algoritmo pueda detectar las especies respectivas.
+El documento proporciona los detalles y requerimientos para el uso correcto de la aplicación móvil, esto con la finalidad de brindar al usuario una herramienta que asegure el uso correcto de la aplicación.
 
 
 # Citación
