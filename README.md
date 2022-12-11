@@ -54,7 +54,7 @@ Para todos aquellos resultados de precisión se realizó 07 entrenamientos hasta
 # 4 Deploy
 
 ## 4.1 Google Colab:
-Para hacer un puesta en producción rápido ofrecemos un[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing), previamente hay que subir la red entrenada, que obtuvimos en el paso anterior que se llama best.pt .
+Para hacer un puesta en producción rápido ofrecemos un[![Open In Colab](https://colab.research.google.com/drive/1sJb12gs07k22lVD_eXBXpp5tY8RBUUuZ?usp=share_link)](https://colab.research.google.com/drive/1j0T8gdLIa0X8fzkIgFpXDoU27BF49RUz?usp=sharing), previamente hay que subir la red entrenada, que obtuvimos en el paso anterior que se llama best.pt .
 Nota; este producto solo durará unas horas ya que esta limitado por el uso de google colab.
 
 ## 4.2 HugginFace:
