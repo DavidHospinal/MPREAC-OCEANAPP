@@ -65,7 +65,7 @@ Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrece
 # 5 Descarga del Apk "OceanApp":
 
 Seguir las siguientes indicaciones en requerimientos e instalación del applicativo.
-[clik aquí para descargar la Apk ](https://drive.google.com/drive/folders/1RIaeYJsEKEyp6wgIBoR8rONC5i2qCo1R?usp=share_link).
+[clik aquí para descargar la Apk ](https://drive.google.com/file/d/1fqWPahLdKsbuekgki3HzF9OlOIBuXNw9/view?usp=share_link).
 
 ## 5.1 Requerimientos:
 
@@ -94,7 +94,7 @@ Una vez que se descarga la aplicación en el teléfono, la instalación de la mi
 Este manual proporciona los detalles y requerimientos para el uso de la aplicación móvil conocida como OCEAN-APP. La aplicación fue diseñada para el reconocimiento de las especies de la pesca acompañante por cerco. Esté facilita el manejo de sus funciones, permitiendo el dominio de todas sus características, mostrando los pasos que debes seguir en las tareas que tengas que realizar para realizar la toma de imágenes en altamar y el algoritmo pueda detectar las especies respectivas.
 El documento proporciona los detalles y requerimientos para el uso correcto de la aplicación móvil, esto con la finalidad de brindar al usuario una herramienta que asegure el uso correcto de la aplicación.
 
-[clik aquí para descargar Manual de usuario](https://drive.google.com/drive/folders/1RIaeYJsEKEyp6wgIBoR8rONC5i2qCo1R?usp=share_link).
+[clik aquí para descargar Manual de usuario](https://drive.google.com/file/d/1mrQFwDv1Kac6lWBvZgaEFGplpQXczSUi/view?usp=share_link).
 
 
 # Citación
