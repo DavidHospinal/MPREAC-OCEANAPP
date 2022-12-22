@@ -71,7 +71,7 @@ Seguir las siguientes indicaciones en requerimientos e instalación del applicat
 
 Los requerimientos mínimos para que la aplicación OCEAN-APP funcione correctamente, son los siguientes:
 
-1) Sistema operativo Android (11.0 o mayor).
+1) Sistema operativo Android (11.0).
 2) Procesador: Snapdragon 870.
 3) Memoria RAM: 8 GB como mínimo.
 4)Almacenamiento: 128 GB como mínimo.
